@@ -1,0 +1,145 @@
+body{
+    background-color:white;
+    color:black;
+    padding: 5px;
+    margin-top: auto;
+}
+header{
+    background-color:black;
+    width: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 96px; 
+    position: absolute;
+    margin-top: 0;
+    margin-left: 5%;
+    
+    
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+}
+li{
+    float: left;
+    list-style: none;
+    padding: 20px 20px 25px 20px;
+    
+}
+li:hover{
+    background-color: #db1d13ef;
+}
+#imagem-fundo{
+    background: url('xiamen-824233_1280.jpg');
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    
+}
+html,body{
+    margin: 0;
+}
+#titulo{
+    color:white;
+    padding-top:20%;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    line-height:0.4;
+    
+} 
+#subtitulo{
+    color: white;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-top: 2px solid white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ação{
+    color: white;
+    border: 4px blue solid;
+    padding:10px 10px 10px 10px;
+}
+.foto{
+    width: 100%;
+    padding: 20px;
+}
+#projeto{
+    padding: 20%;
+
+}
+
+.igual{
+padding: 20px;
+}
+.destaque{
+    padding: 20px;
+}
+.minha{
+    width: 300px;
+    padding: 20px;
+
+}
+.coluna{
+    float: left;
+    padding:  0 5%;
+    position: relative;
+    width: 40% ;
+}
+.justificado{
+    text-align: justify;
+}
+
+
+
+
+section{
+    padding: 20px;
+    float: left;
+    
+}
+
+
+footer{
+    background-color:black;
+text-align: left;
+padding: 20px;
+float: left;
+color: white;
+}
+.destaque{
+text-align: left;
+}
+    #sobre mim {
+        text-align: justify;
+    }
+@media all and (max-width:992px){
+
+#menu{
+    visibility: hidden;
+}
+.coluna{
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+}
+#logodiv{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+}
+#logo{
+
+    transform: translatex(250%);
+    
+}
+}
+
